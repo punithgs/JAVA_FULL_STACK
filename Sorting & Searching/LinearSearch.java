@@ -6,14 +6,7 @@ public class LinearSearch {
         System.out.println(search(a, 6));
     }
 
-    static int search (int[]a, int key)
-    {
-        for (int i=0; i<a.length; i++)
-        {
-            if(a[i]==key)
-                return i;
-        }
-        return -1;
+
 
     }
     
