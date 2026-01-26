@@ -13,8 +13,12 @@ public class QuickSort {
         sort (a,0,a.length-1);
     }
     public static void sort (int[]a, int start, int end)
-
-
+        {
+        if(start >= end)
+            return;
+        int i = start, j = end;
+        int pivot = a [(start + end) / 2 ];
+            
         while (i <= j) {
             while (a[i] < pivot) i++ ;
             while (a[j] > pivot) j-- ;
