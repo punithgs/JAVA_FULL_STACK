@@ -1,3 +1,12 @@
+class Node {
+    Object ele;
+    Node next;
+
+    Node(Object ele) {
+        this.ele = ele;
+        this.next = null;
+    }
+}
 class Stack {
     private Node first;
     private int count = 0;
