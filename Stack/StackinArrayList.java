@@ -73,6 +73,7 @@ public class StackinArrayList
         s.push(30);
         s.push(40);
         s.push(50);
+        s.push(60);
 
         System.out.println(s.pop());   // 50
         System.out.println(s);         // [40,30,20,10]
