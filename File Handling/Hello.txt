@@ -1,0 +1,22 @@
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello word");
+    }
+    
+}
+
+Mobile Numbers:
+
+9876543210
+8976543210
+7896543210
+6789543210
+5678943210
+4567893210
+3456789210
+1234567890
+5465358728
+9843698639
+4375757868
+6869842392
+8238919897
