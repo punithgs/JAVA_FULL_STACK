@@ -17,10 +17,7 @@ public class WordCountUsingBuffer {
             String[] words = line.trim().split("\\s+");
 
             // Handle empty lines
-            if (!line.trim().isEmpty()) {
-                wordCount += words.length;
-            }
-        }
+         
 
         bf.close();
 
