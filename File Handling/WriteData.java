@@ -19,10 +19,7 @@ public class  WriteData{
         }
         else
             System.out.println("can not Write");
-        f.close();
-
-        
-    }
-    
+        f.close();  
+    }    
 }
 
