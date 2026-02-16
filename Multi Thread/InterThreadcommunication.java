@@ -21,8 +21,9 @@ class Bank{
                 wait();
             } catch(InterruptedException e) {}
         }
-
-
+        bal -= amount;
+        System.out.println(amount + " with draw done");
+        System.out.println(bal + " is available bal");
     }
 }
 
