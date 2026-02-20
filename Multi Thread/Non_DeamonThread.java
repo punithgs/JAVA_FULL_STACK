@@ -13,4 +13,17 @@ class MyT1 extends Thread
         }
     }
 }
-
+public class Non_DeamonThread {
+    public static void main(String[] args) throws InterruptedException{
+        MyT1 t1 = new MyT1();
+        t1.setDaemon(true); //Non-Deamon to Deamon
+        t1.start();
+        for(int i = 1; i <= 10; i++)
+        {
+            Thread.sleep(1000);
+            System.out.println("Main " + i);
+            if( i == 6)
+                System.out.println(10/0);
+        }
+    } 
+}
