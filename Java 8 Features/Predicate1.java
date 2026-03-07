@@ -5,7 +5,7 @@ public class Predicate1 {
         
         Predicate<Integer> p = i -> i % 2 == 0;
         System.out.println(p.test(6));
-        System.out.println(p.test(5));
+        
     }
 }
 
