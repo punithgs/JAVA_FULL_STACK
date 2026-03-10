@@ -12,9 +12,3 @@ List<Integer>list = l.stream().map(i->i*i).toList();
 System.out.println(list);
     }
 }
-/*
-4
-[1, 4, 9, 16, 25, 36, 49, 64, 81]
-
-in this program we are using stream filter and stream map
-*/
