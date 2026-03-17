@@ -10,3 +10,5 @@ public class Stream9 {
         aList.stream().distinct().forEach(i-> System.out.print(i+" "));
     }    
 }
+
+// Remove Duplicate words in string
