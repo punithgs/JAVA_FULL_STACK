@@ -8,8 +8,5 @@ public class Stream9 {
         String[] split = s.split(" ");
         List<String>aList = Arrays.asList(split);
         aList.stream().distinct().forEach(i-> System.out.print(i+" "));
-    }
-    
+    }    
 }
-
-// Remove Duplicate words in string
