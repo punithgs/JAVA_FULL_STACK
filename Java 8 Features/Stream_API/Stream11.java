@@ -10,7 +10,7 @@ public class Stream11 {
                 .distinct()                      // remove duplicates
                 .map(String::valueOf)            // char → String
                 .collect(Collectors.joining());  // join characters
-
+     
         System.out.println(result);
     }
 }
