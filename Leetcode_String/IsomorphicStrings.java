@@ -37,13 +37,7 @@ Input: s = "paper", t = "title"
 
 Output: true
 
- 
 
-Constraints:
-
-1 <= s.length <= 5 * 104
-t.length == s.length
-s and t consist of any valid ascii character.
 */
 
 class Solution {
