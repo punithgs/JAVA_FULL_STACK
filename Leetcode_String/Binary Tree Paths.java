@@ -1,4 +1,5 @@
 /*
+
 257. Binary Tree Paths
 
 Given the root of a binary tree, return all root-to-leaf paths in any order.
@@ -14,7 +15,6 @@ Example 2:
 Input: root = [1]
 Output: ["1"]
  
-
 Constraints:
 
 The number of nodes in the tree is in the range [1, 100].
