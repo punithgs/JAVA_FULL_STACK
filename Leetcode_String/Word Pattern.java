@@ -1,4 +1,5 @@
 /*
+
 290. Word Pattern
 
 Given a pattern and a string s, find if s follows the same pattern.
@@ -33,8 +34,6 @@ Example 3:
 Input: pattern = "aaaa", s = "dog cat cat dog"
 
 Output: false
-
- 
 
 Constraints:
 
