@@ -23,7 +23,6 @@ class Resource2 {
         System.out.println("Inside Resource2 method2");
     }
 }
-
 public class DeadlockExample {
     public static void main(String[] args) {
 
