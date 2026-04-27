@@ -15,7 +15,6 @@ AA -> 27
 AB -> 28 
 ...
  
-
 Example 1:
 
 Input: columnTitle = "A"
