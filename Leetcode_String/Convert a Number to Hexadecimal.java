@@ -37,3 +37,5 @@ class Solution {
         return sb.reverse().toString();
     }
 }
+
+// Convert a Number to Hexadecimal
