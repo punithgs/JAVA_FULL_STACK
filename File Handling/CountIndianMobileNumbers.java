@@ -14,7 +14,7 @@ public class CountIndianMobileNumbers {
         int count = 0;
 
         // Indian mobile number regex
-        
+        // Indian mobile number regex
         Pattern pattern = Pattern.compile("\\b[6-9][0-9]{9}\\b");
 
         while ((line = bf.readLine()) != null) {
