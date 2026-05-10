@@ -98,7 +98,9 @@ public class ArrayList_implementation {
     }
 }
 
-/*class MyArrayList {
+/*
+
+class MyArrayList {
     private Object [] arr;
     private int p =0 ;
 
@@ -183,5 +185,6 @@ public class ArrayList_implementation {
         System.out.println(a);
     }
 }
+
 */
 
